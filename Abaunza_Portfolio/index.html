@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <style>
+            div.skills__list {border-style: groove;}
+        </style>
+        <title>Gerardo Abaunza Portfolio</title>
+        <link href = "/styles/styles.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div class = "banner">
+            <h1 id = "banner__title">Welcome to my portfolio!</h1>
+            <h2 id = "banner__subtitle">My name is Gerardo Abaunza</h2>
+        </div>
+        <div class = "about-me-page">
+            <br>
+            <div id = "intro-text">
+                <div id = "profile-pic">
+                    <img src = "/images/best-friends.jpg" class = "profile secondary">
+                    <img src = "/images/Train_pic.png" class = "profile">
+                    <img src = "/images/couple.jpg" class = "profile secondary">
+                </div>
+                <div class="profile-text">
+                    <h1 class = "new__section" id = "info-title">About Me</h2>
+                    <p id = "info-me">I am a rising senior Computer Science student at George Mason University. 
+                        It is there that I learned Java, Python, and C as well as various other topics such as data structures and formal methods and logic. 
+                        Additionally, I am self taught in Javascript, HTML, CSS and am currently learning Node.js on my own. I have coded for over two years now and love the challenge. 
+                        I currently reside in Centreville, Virginia and am currently looking to intern remotely or anywhere in the Northern Virginia and DC Metropolitan Area as a front-end developer
+                        or software engineer!
+                    </p>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class = "main-page">
+            <div class = "skills" id = "skills-banner">
+                <div id = "skills__title">
+                    <h1 class = "new__section">Skills</h1>
+                </div>
+                <div class = "skills__list">
+                    <p>-Proficient with: Java, Javascript, HTML, CSS </p>
+                    <p>-Familiar with: C, Python</p>
+                    <p>-Fluent in Spanish</p>
+                    <p>-Able to solve problems in formal languages: writing regular expressions, regular grammars, and context-free grammars</p>
+                    <p>-Comfortable with databases such as linked lists, hashes, trees, graphs, queues, stacks, etc.</p>
+                </div>
+            </div>
+            <div class = "projects" id = "projects-banner">
+                <div class = "apps" >
+                    <h1 id = "projects__title" class = "new__section">Applications</h1>
+                    <div id = "Hangman">
+                        <h2 class = "app__title">Hangman App</h2>
+                        <p>This is the traditional hangman game. It will fetch a random two words from an API and will return the words as asteriks 
+                            so that the user can guess letter by letter and eventually, the words. 
+                            If the user guesses a correct letter then the letter will show up in place of the asterik in every occurence of it in both of the words. 
+                            If the user makes an incorrect guess then the number of guesses the user has left will decrease by one.
+    
+                            The user wins the game by either figuring out the word within the alloted number of guesses or fails the game by running out 
+                            of guesses without guessing the words. If the user types in a letter that has already been guessed nothing will happen.
+                            <a href = "https://gerardo-hangman.netlify.app/">Click here to go to the Hangman App</a>
+                        </p>
+                    </div>
+                    <div id = "Todo App">
+                        <h2 class = "app__title">Todo App</h2>
+                        <p>The user can add todos and remove them as they wish. There are checkboxes next to each todo 
+                            that the user can check to signify if it is completed or not. At the top of the website one
+                            can find a search bar that will filter the todos based on what the user types in by looking for 
+                            a matching title. The user will also be told how many todos are left based on how many unfinished 
+                            (unchecked) todos exist.
+                            There is also an option to only display the incompleted todos.
+                            <a href = "https://gerardo-todos.netlify.app/">Click here to go to the Todo App</a>
+                        </p>
+                    </div>
+                    <div id = "Notes App">
+                        <h2 class = "app__title">Notes App</h2>
+                        <p>This application allows the user to take notes and save them via their local storage. The notes can be filtered either 
+                            alphabetically, by last edited, or by last created. Additionally, the notes can be searched for using their title.
+                            <a href = "https://gerardo-notes.netlify.app/">Click here to go to the Notes App</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "bottom-banner" id = "contact-banner">
+                <div class = "contact">
+                    <h1 id = "contact__title">Contact Information</h1>
+                    <div class = "contact__info">
+                        <h2 class = "contact__header">Email</h2>
+                        <p class = "contact__item">gerardoabaunza2015@gmail.com</p>
+                        <h2 class = "contact__header">Phone Number</h2>
+                        <p class = "contact__item">703-868-3702</p>
+                        <h2 class = "contact__header">Github</h2>
+                        <a class = "contact__item" href = "https://github.com/Gerardo-cmd">Github/Gerardo-cmd</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
